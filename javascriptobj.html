@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h2> javascripts object</h2>
+	<p id="demo"></p>
+	<script>
+		//creating the object
+		var car={type:'fiat',model:'2008',mileage:'20mpl',
+		fullname:function(){
+			return this.type +""+this.mileage;
+		}
+	}
+
+		;
+		//display some data from the object
+		document.getElementById('demo').innerHTML="the car has the mileage"+car.mileage;
+		document.getElementById('demo').innerHTML=car.fullname();
+	</script>
+	<!-- the method are the actions that can be performed in the object -->
+	
+</body>
+</html>

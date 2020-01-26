@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		function myfunc(){
+			document.getElementById('demo').innerHTML='paragraph changed.';
+		}
+
+	</script>
+</head>
+<body>
+	<p id="demo">this is anil </p>
+	<p id="demo2"></p>
+	<p id="demo3"></p>
+
+	<button type="button" onclick="myfunc()">tryit</button> 
+	<!-- the script file can be inthe head or the body or an external file ending in an extension .js 
+	the <script> src='fienmae.js'</script> 
+	the external file should not contain the script tagst  
+	the inner html defineres the html element for the that tag
+ -->
+<script>
+	document.getElementById('demo2').innerHTML=5+6;
+	document.write(5+9);
+</script>
+	
+</body>
+</html>

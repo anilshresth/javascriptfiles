@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p id="demo"></p>
+	<script>
+		var text1="this is line1";
+		var text2="this is line2" ;
+		var pos=text1.search("is");
+		var sliced=text1.slice(8,10);
+		document.getElementById('demo').innerHTML=text1+"<br>"+text2;
+		//
+		document.getElementById('demo').innerHTML=text1.length;
+		document.getElementById('demo').innerHTML=pos;
+		document.getElementById('demo').innerHTML=sliced;
+	</script>
+
+	
+</body>
+</html>
